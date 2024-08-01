@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!--assets-->
+    <link rel="stylesheet" href="assets/head.css">
+    <link rel="stylesheet" href="assets/formulário.css">
+    <link rel="stylesheet" href="assets/corpo.css">
+    <link rel="stylesheet" href="assets/legendas.css">
+    <link rel="stylesheet" href="assets/select.css">
+    <link rel="stylesheet" href="assets/Privacidade.css">
+    <link rel="stylesheet" href="assets/data_e_hora.css">
+    <link rel="stylesheet" href="assets/responcividade.css">
+
+    <!--biblioteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+
+<body>
+    <header class="cabeçario animate__animated  animate__backInDown">
+        <h1>
+            Crie e compartilhe <br>
+            seu evento.
+        </h1>
+        <p>
+            o primeiro passo é preencher esse <br>
+            formulario de inscrição.
+        </p>
+    </header>
+    <form class="formulario animate__animated animate__backInLeft" action="">
+        <fieldset>
+            <legend>Informações do evento</legend>
+            <div class="conjuntosDeInputs">
+                <label for="titulo-evento">Titulo do evento: <span class="leg">( No minimo 8 caracter )</span> </label>
+                <input minlength="8" required name="titulo-evento" type="text" id="titulo-evento">
+            </div>
+
+            <div class="conjuntosDeInputs">
+                <label for="link_events"> Link do evento: <span class="leg">( Comece com https:// )</span></label>
+                <input required type="url" name="link_evento" id="link_events">
+            </div>
+
+            <div class="conjuntosDeInputs">
+                <label for="contact"> Whatsapp para contato: <span class="leg">( Somente números )</span></label>
+                <input required type="text" name="contato" id="contact">
+            </div>
+
+            <div class="conjuntosDeInputs">
+                <label for="link_sujestões"> Informações extras: </label>
+                <textarea class="sujestões" name="sujestões" id="link_sujestões"></textarea>
+            </div>
+
+            <div class="caixa">
+                <label for="categoria"> Categoria:</label>
+                <select class="select" name="select" id="categoria">
+                    <option value="live">Ao Vivo</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="karaokê">karaokê</option>
+                    <option value="balada">Balada</option>
+                </select>
+                <div class="conjuntosDeInputs">
+
+                </div>
+
+                <fieldset class="Privacidade">
+                    <legend>
+                        Privacidade
+                    </legend>
+
+                    <div class="input_Privacidade">
+                        <label for="Email">Email: <span class="leg">( Digite um Email valido )</span></label>
+                        <input required name="Email" type="email" id="Email">
+                    </div>
+
+                    <div class="input_Privacidade">
+                        <label for="Senha">Senha de Acesso Para Participantes: <span class="leg">( Digite uma senha
+                                existente )</span></label>
+                        <input required name="Senha" type="password" id="Senha">
+                    </div>
+
+                    <div class="opções_evento">
+                        <input value="Privado" name="privado" type="checkbox" id="radio">
+                        <label for="event-private"> Evento Privado</label>
+                    </div>
+
+
+                </fieldset>
+
+                <fieldset class="parte_datas">
+                    <legend>
+                        Dia e hora
+                    </legend>
+
+                    <div class="contener">
+                        <div class="conteudo">
+                            <label for="event-data"> Data: </label>
+                            <input required name="data_do_evento" type="date" id="event-data">
+                        </div>
+                        <div class="conteudo">
+                            <label for="event_inicie">Das:</label>
+                            <input required name="inicio" type="time" id="event_inicie">
+                        </div>
+                        <div class="conteudo">
+                            <label for="event-end"> até: </label>
+                            <input required name="fim" type="time" id="event-end">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="botão">
+                    <input type="submit" value="Criar Evento">
+                </div>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

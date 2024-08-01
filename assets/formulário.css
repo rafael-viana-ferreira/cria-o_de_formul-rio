@@ -1,0 +1,93 @@
+.formulario {
+    /* border: 1px solid red; */
+    width: 650px;
+    height: 1390px;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: aliceblue; 
+    position: relative;
+    bottom: 115px; 
+    border-radius: 25px;
+    padding: 64px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}    
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    border-bottom: 1px solid rgb(224, 224, 241);
+    padding-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.conjuntosDeInputs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}   
+
+
+
+
+.conjuntosDeInputs label {
+    margin-top: 24px;
+}
+
+.conjuntosDeInputs input {
+    margin-top: 15px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: medium;
+    color:rgb(87, 87, 139);
+    border:1px solid rgb(224, 224, 241);
+} 
+
+.sujestões {
+    margin-top: 15px;
+    width: 500px;
+    resize: none;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-y:hidden;
+    border:1px solid rgb(223, 223, 247);
+} 
+
+.botão {
+    display:flex;
+    position: relative;
+    margin-top: 55px;
+    left: 50px;
+
+} 
+
+.botão input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    font-size: medium;
+    background-color: rgb(184, 241, 184);
+} 
+
+.botão input:hover {
+    border: 1px solid rgb(143, 143, 143);
+    background-color: rgb(94, 240, 94);
+    box-shadow: 1px 1px  rgb(110, 110, 110);
+} 
+
+input:invalid {
+    border: 1px solid red;
+}
