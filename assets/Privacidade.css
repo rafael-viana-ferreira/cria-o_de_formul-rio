@@ -1,39 +1,30 @@
 .Privacidade {
-    margin-top: 35px;
-} 
+  margin-top: 3.5rem;
+}
 
 .input_Privacidade {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .input_Privacidade label {
-    margin-top: 24px;
-    margin-bottom: 14px;
+  margin-top: 2.4rem;
+  margin-bottom: 1.4rem;
 }
 
 .input_Privacidade input {
-    width: 500px;
-    height: 40px;
-    border:1px solid rgb(224, 224, 241);
-    padding: 15px;
-    color:rgb(87, 87, 139);
-    border-radius: 10px;
-}  
+  width: 50rem;
+  height: 4rem;
+  border: 1px solid rgb(224, 224, 241);
+  padding: 1.5rem;
+  color: rgb(87, 87, 139);
+  border-radius: 10px;
+}
 
 .opções_evento {
-    margin-top: 35px;
-    cursor: pointer;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}   
-
-
-
-
-
-
-
-
-
+  margin-top: 3.5rem;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

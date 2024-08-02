@@ -1,27 +1,26 @@
-
 .cabeçario {
-    padding-top: 35px;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(12, 12, 12); 
-    margin-bottom: 25px;
+  padding-top: 3.5rem;
+  width: 100%;
+  height: 30rem;
+  background-color: rgb(12, 12, 12);
+  margin-bottom: 2.5rem;
 }
 
 .cabeçario h1 {
-    color: aliceblue;
-    font-family: "Archivo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    margin-left: 310px;
-    padding-bottom: 20px;
-    animation:animate__backInLeft;
-    animation-duration: 0.2;
+  color: aliceblue;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  margin-left: 31rem;
+  padding-bottom: 2rem;
+  animation: animate__backInLeft;
+  animation-duration: 0.2;
 }
 
 .cabeçario p {
-    color:rgb(152, 152, 236);
-    margin-left: 310px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  color: rgb(152, 152, 236);
+  margin-left: 31rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

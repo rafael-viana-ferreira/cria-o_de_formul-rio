@@ -1,22 +1,21 @@
 .select {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    height:30px;
-    border-radius: 5px;
-    appearance: none;
-    padding: 6px;
-    text-align: center;
-    border: 1px solid  rgb(224, 224, 241);
-} 
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 5px;
+  appearance: none;
+  padding: 6px;
+  text-align: center;
+  border: 1px solid rgb(224, 224, 241);
+}
 
 .select label {
-    margin-top: 35px;
+  margin-top: 3.5rem;
 }
 
 .caixa {
-    margin-top: 25px;
-    font-size: 15px;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
 }
-

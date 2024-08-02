@@ -1,0 +1,45 @@
+@media (min-width: 1905px) {
+  .cabeçario {
+    padding-top: 3.5rem;
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(12, 12, 12);
+    margin-bottom: 2.5rem;
+  }
+
+  .formulario {
+    /* border: 1px solid red; */
+    width: 65rem;
+    height: 139rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 10rem;
+    border-radius: 2.5rem;
+    padding: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cabeçario h1 {
+    color: aliceblue;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    margin-left: 64.3rem;
+    padding-bottom: 2rem;
+    animation: animate__backInLeft;
+    animation-duration: 0.2;
+  }
+
+  .cabeçario p {
+    color: rgb(152, 152, 236);
+    margin-left: 64.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}

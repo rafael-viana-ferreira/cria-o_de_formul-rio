@@ -1,34 +1,29 @@
 .parte_datas {
-    margin-top: 40px;
+  margin-top: 4rem;
 }
- 
- .contener {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
- }
- 
- 
- 
- .contener .conteudo {
-    display: flex;
-    flex-direction: column;
+
+.contener {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+.contener .conteudo {
+  display: flex;
+  flex-direction: column;
 }
 
 .contener .conteudo label {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .contener .conteudo input {
-    width: 145px;
-    height: 40px;
-    border-radius: 10px;
-    border:1px solid rgb(224, 224, 241); 
-    color:rgb(132, 132, 182);
-    padding: 12px; 
-
+  width: 14.5rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(224, 224, 241);
+  color: rgb(132, 132, 182);
+  padding: 1.2rem;
 }
-
-
